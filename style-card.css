@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(44, 44, 61);
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+}
+main #pink {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    box-shadow: 10px 10px 43px 5px rgba(0,0,0,0.24);
+    margin: 10px;
+}
+main #yellow {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    box-shadow: 10px 10px 43px 5px rgba(0,0,0,0.24);
+    margin: 10px;
+}
+main #blue {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    box-shadow: 10px 10px 43px 5px rgba(0,0,0,0.24);
+    margin: 10px;
+}
+main #Prim{
+    display: flex;
+    justify-content: space-between;
+}
+main #Prim .icon{ 
+    width: 8%;
+}
+main #Prim .logo{ 
+    width: 22%;
+}
+main #Seg #tenis{
+    width: 100%;
+}
+main #Ter h3{ 
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+main #Quar{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+main #Quin img{
+    width: 20px; 
+}
+main #Sex{ 
+    display: flex;
+    justify-content: space-around;
+}
+main #Sex p{
+    margin-top: 23px;
+}
+main #Sex p:hover{
+    font-weight: bold;
+    font-size: large;
+}
+main #Sex h3{
+    margin-top: 22px;
+    color: rgba(0, 0, 0, 0.644);
+    text-decoration: underline;
+}
+.preço {
+    text-align: center;
+    font-weight: 900;
+}
+main .comprar {
+    width: 100%;
+    padding: 10px;
+    background-image: linear-gradient(45deg, #1A1A40, #270082, #7A0BC0, #FA58B6);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+main .comprar:hover{
+    background-image: linear-gradient(45deg, #FA58B6, #7A0BC0, #270082, #1A1A40);
+}
+main .detalhes {
+    width: 100%;
+    height: 40px;
+}

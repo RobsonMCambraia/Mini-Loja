@@ -4,6 +4,7 @@
 
 body {
     background-color: rgb(44, 44, 61);
+    background-image: linear-gradient(180deg, #233A4E, #9C6DB0);
 }
 main {
     display: flex;
@@ -83,19 +84,25 @@ main #Sex h3{
     text-align: center;
     font-weight: 900;
 }
-main .comprar {
-    width: 100%;
-    padding: 10px;
-    background-image: linear-gradient(45deg, #1A1A40, #270082, #7A0BC0, #FA58B6);
-    border-radius: 30px;
-    color: white;
-    font-weight: bold;
-    border: none;
+.preço_ant {
+    color: rgb(194, 194, 194);
+    text-decoration: line-through;
 }
-main .comprar:hover{
-    background-image: linear-gradient(45deg, #FA58B6, #7A0BC0, #270082, #1A1A40);
+.promoção {
+    color: rgb(131, 8, 8);
 }
-main .detalhes {
+main button {
     width: 100%;
     height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+main  #detalblue:hover {
+    background-image: linear-gradient(45deg, #1E3163, #2D46B9, #F037A5, #F8F8F8);
+}
+main  #detalpink:hover {
+    background-image: linear-gradient(45deg, #1A1A40, #270082, #7A0BC0, #FA58B6);
+}
+main  #detalyellow:hover {
+    background-image: linear-gradient(45deg, #1B1A17, #A35709, #FF8303);
 }

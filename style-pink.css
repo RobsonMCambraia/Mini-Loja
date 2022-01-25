@@ -36,6 +36,7 @@ main #Prim{
 }
 main #Prim #icon{ 
     width: 8%;
+    padding-top: 7px;
 }
 main #Prim #logo{ 
     width: 22%;

@@ -30,6 +30,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 50px; 
 }
 main #email {
     background-color: rgb(216, 214, 214);

@@ -111,7 +111,7 @@ main button {
     height: 40px;
     border-radius: 15px;
     border: none;
-    background-image: linear-gradient(45deg, #343779, #33A9AC);
+    background-image: linear-gradient(45deg, #2E4054, #294d75, #a1223d, #CC274C);
     color: white;
     font-weight: bold;
 }

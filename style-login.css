@@ -6,7 +6,8 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(45deg, #343779, #982062, #f86041, #FFA656, #33A9AC);
+    /*background-image: linear-gradient(45deg, #343779, #982062, #f86041, #FFA656, #33A9AC);*/
+    background-image: linear-gradient(45deg, #2E4054, #294d75, #a1223d, #CC274C);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -65,13 +66,13 @@ main #senha input {
 main #entrar {
     width: 100%;
     height: 50px;
+    background-color: #CC274C;
     border-radius: 10px;
     border: none;
-    background-color: #343779;
     color: white;
     font-weight: bold;
 }
 main #entrar:hover {
-    background-color: #33A9AC;
+    background-color: #2E4054;
     color: black;
 }

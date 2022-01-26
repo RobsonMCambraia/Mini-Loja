@@ -4,7 +4,8 @@
 
 body {
     background-color: rgb(44, 44, 61);
-    background-image: linear-gradient(45deg, #343779, #982062, #f86041, #FFA656, #33A9AC);
+    /*background-image: linear-gradient(45deg, #343779, #982062, #f86041, #FFA656, #33A9AC);*/
+    background-image: linear-gradient(45deg, #2E4054, #294d75, #a1223d, #CC274C);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }

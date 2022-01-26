@@ -6,7 +6,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(45deg, #233A4E, #9C6DB0);
+    background-image: linear-gradient(45deg, #343779, #982062, #f86041, #FFA656, #33A9AC);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -22,8 +22,9 @@ main {
     flex-direction: column;
     box-shadow: 10px 10px 43px 5px rgba(0,0,0,0.24);
 }
-main h1 {
+#user {
     text-align: center;
+    height: 10px;
 }
 #formulario {
     display: flex;
@@ -57,17 +58,19 @@ main #senha {
 main #senha input {
     border: none;
     background-color: rgb(216, 214, 214);
+    border-radius: 10px;
+    height: 23px;
 }
 main #entrar {
     width: 100%;
     height: 50px;
     border-radius: 10px;
     border: none;
-    background-color: #233A4E;
+    background-color: #343779;
     color: white;
     font-weight: bold;
 }
 main #entrar:hover {
-    background-color: #9C6DB0;
+    background-color: #33A9AC;
     color: black;
 }

@@ -40,13 +40,9 @@ main #email {
     margin: 10px;
     display: flex;
     flex-direction: row;
-}
-main #email label{
-    padding: 15px;
-    font-weight: bold;
 } 
 main #email input{
-    width: 132px;
+    width: 400px;
     height: 5px;
     border: none;
 }
@@ -62,6 +58,7 @@ main #senha input {
     background-color: rgb(216, 214, 214);
     border-radius: 10px;
     height: 23px;
+    width: 235px;
 }
 main #entrar {
     width: 100%;

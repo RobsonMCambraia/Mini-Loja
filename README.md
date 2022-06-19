@@ -7,6 +7,10 @@ Página de exibição de produtos feitas a partir da visualização da thumbmail
 
 Product display page made from the thumbmail view of a video tutorial on product card animation. After a few months of study, I decided to challenge myself and put my knowledge into practice. This project started with the creation of only 1 (card), but after not feeling enough, I decided to add 2 (two) more cards and create a bigger project with more resources. Although the shoe cards are not designed by me, all the HTML and CSS was written exclusively by me, in addition to the additional resources.
 
+## Visualizar site
+
+-https://cardsdeprodutos.netlify.app/
+
 ## Capturas de tela / Screenshots
 
 ![Login page](assets/images/Screenshots/1.png?raw=true "Screenshot")

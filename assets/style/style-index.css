@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body {
+    margin: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /*background-image: linear-gradient(45deg, #343779, #982062, #f86041, #FFA656, #33A9AC);*/
+    background-image: linear-gradient(45deg, #2E4054, #294d75, #a1223d, #CC274C);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+main {
+    background-color: white;
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 10px 10px 43px 5px rgba(0,0,0,0.24);
+}
+#user {
+    text-align: center;
+    height: 10px;
+}
+#formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px; 
+}
+main #email {
+    background-color: rgb(216, 214, 214);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+} 
+main #email input{
+    width: 400px;
+    height: 5px;
+    border: none;
+}
+main #senha {
+    background-color: rgb(216, 214, 214);
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+}
+main #senha input {
+    border: none;
+    background-color: rgb(216, 214, 214);
+    border-radius: 10px;
+    height: 23px;
+    width: 235px;
+}
+main #entrar {
+    width: 100%;
+    height: 50px;
+    background-color: #CC274C;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+main #entrar:hover {
+    background-color: #2E4054;
+    color: black;
+}

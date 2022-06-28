@@ -45,6 +45,7 @@ main #email input{
     width: 400px;
     height: 5px;
     border: none;
+    outline: none;
 }
 main #senha {
     background-color: rgb(216, 214, 214);
@@ -59,6 +60,7 @@ main #senha input {
     border-radius: 10px;
     height: 23px;
     width: 235px;
+    outline: none;
 }
 main #entrar {
     width: 100%;
